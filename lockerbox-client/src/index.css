@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+/*LOGIN AND REGISTER PAGE*/
+
+.right-side {
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+}
+
+.left-side {
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.input {
+    width: 285px;
+    border-radius: 10px;
+}
+
+.button {
+    width: 285px;
+    border-radius: 10px;
+    background: #111727;
+}
+
+.button:hover {
+    color: #ffffff;
+}
+
+/*HOME PAGE*/
+
+.sidebar {
+    border-right-width: 2px;
+    border-right-color: #E5E0DF;
+    background: #F7F4F0;
+    height: 80vh;
+}
+
+.main {
+    background: #F7F4F0;
+}
+
+.card {
+    border-radius: 30px;
+    width: 180px;
+    height: 180px;
+    margin: 0px 20px 20px 20px
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
